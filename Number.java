@@ -11,11 +11,16 @@ class Number
 	 int num;
         Scanner sc=new Scanner(System.in);
         if(num>0)
-            System.out.println("Positive");
-        else if(num<0)
-            System.out.println("Negative");
-        else
-            System.out.println("Zero");
- 
+         {
+	System.out.println("Positive");
+        }
+	else if(num<0)
+           {
+	   System.out.println("Negative");
+        }
+	else
+         {
+	 System.out.println("Zero");
+     }
     }
 }
